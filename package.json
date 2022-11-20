@@ -1,0 +1,37 @@
+{
+  "name": "simple-node-server",
+  "version": "1.0.0",
+  "description": "A simple Node.js server to run in Azure",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "nyc --reporter=html mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clarkio/simple-node-server.git"
+  },
+  "author": "Brian Clark",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clarkio/simple-node-server/issues"
+  },
+  "homepage": "https://github.com/clarkio/simple-node-server#readme",
+  "dependencies": {
+    "applicationinsights": "^1.0.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "ethers": "^5.5.1",
+    "express": "^4.16.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.14"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1",
+    "nyc": "^14.1.1",
+    "snyk": "^1.52.0",
+    "supertest": "^4.0.2"
+  }
+}
