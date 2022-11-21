@@ -1,0 +1,20 @@
+# Node modules
+node_modules
+public/candles-*
+
+# Adonis directory for storing tmp files
+tmp
+
+# Environment variables, never commit this file
+.env
+
+# The development sqlite file
+database/development.sqlite
+
+# jetbrains editors
+.idea/
+.vscode/
+# *.loc files
+package-lock.json
+
+*.DS_Store
